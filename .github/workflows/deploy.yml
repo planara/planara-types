@@ -1,4 +1,3 @@
-
 name: deploy
 
 on:
@@ -34,6 +33,8 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish to GitHub Packages
-        run: npm publish --registry=https://npm.pkg.github.com
+        run: |
+          echo "@planara:registry=https://npm.pkg.github.com" > .npmrc
+          npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
