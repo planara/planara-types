@@ -14,4 +14,7 @@ export enum FigureType {
 
   /** Цилиндр */
   Cylinder,
+
+  /** Кастомная фигура*/
+  Custom,
 }
