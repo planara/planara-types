@@ -1,11 +1,11 @@
 /** Режимы отображения */
 export enum DisplayMode {
-    /** Просмотр */
-    PLane = 'plane',
+  /** Просмотр */
+  PLane = 'plane',
 
-    /** Wireframe */
-    Wireframe = 'wireframe',
+  /** Wireframe */
+  Wireframe = 'wireframe',
 
-    /** Текстурный режим */
-    Texture = 'texture'
+  /** Текстурный режим */
+  Texture = 'texture',
 }
