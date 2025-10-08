@@ -1,7 +1,7 @@
 /** Режимы рендеринга */
 export enum RendererMode {
   /** Просмотр */
-  PLane = 'plane',
+  Plane = 'plane',
 
   /** Xray */
   Wireframe = 'wireframe',
