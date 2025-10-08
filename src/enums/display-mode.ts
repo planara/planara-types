@@ -1,7 +1,7 @@
 /** Режимы отображения */
 export enum DisplayMode {
   /** Просмотр */
-  PLane = 'plane',
+  Plane = 'plane',
 
   /** Wireframe */
   Wireframe = 'wireframe',
