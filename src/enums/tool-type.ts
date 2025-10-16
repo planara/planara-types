@@ -7,5 +7,5 @@ export enum ToolType {
   Scale = 'scale',
 
   /** Вращение */
-  Rotate = 'rotate'
+  Rotate = 'rotate',
 }
