@@ -15,6 +15,21 @@ export enum FigureType {
   /** Цилиндр */
   Cylinder,
 
-  /** Кастомная фигура*/
+  /** Конус */
+  Cone,
+
+  /** Тор */
+  Torus,
+
+  /** Круг */
+  Circle,
+
+  /** Икосфера */
+  Icosphere,
+
+  /** UV-сфера */
+  UVSphere,
+
+  /** Кастомная фигура */
   Custom,
 }
