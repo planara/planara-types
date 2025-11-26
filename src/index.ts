@@ -9,3 +9,5 @@ export * from './enums/tool-type';
 export * from './enums/scene-mode';
 // Types
 export * from './types/figure-data';
+// Rules
+export * from './rules/tool';
