@@ -1,5 +1,6 @@
-import type { FigureData } from '../types/figure/figure-data';
-import type { FigureType } from '../enums/figure-type';
+// Types
+import type { FigureData } from '../types';
+import type { FigureType } from '../enums';
 
 /**
  * Класс, представляющий 3D-фигуру с вершинами, нормалями, UV и материалом.
