@@ -1,5 +1,5 @@
 // Types
-import type { Vec3 } from './vec3';
+import type { Vec3 } from '../common/vec3';
 
 /**
  * Трансформация фигуры/объекта в редакторе

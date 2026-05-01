@@ -1,4 +1,4 @@
-import type { FigureData } from '../types/figure-data';
+import type { FigureData } from '../types/figure/figure-data';
 import type { FigureType } from '../enums/figure-type';
 
 /**
