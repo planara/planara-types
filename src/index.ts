@@ -1,15 +1,8 @@
 // Models
-export * from './models/figure';
+export * from './models';
 // Enums
-export * from './enums/figure-type';
-export * from './enums/display-mode';
-export * from './enums/renderer-mode';
-export * from './enums/select-mode';
-export * from './enums/tool-type';
-export * from './enums/scene-mode';
+export * from './enums';
 // Types
-export * from './types/figure-data';
-export * from './types/vec3';
-export * from './types/figure-transform';
+export * from './types';
 // Rules
-export * from './rules/tool';
+export * from './rules';
