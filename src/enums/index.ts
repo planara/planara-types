@@ -5,3 +5,6 @@ export * from './select-mode';
 export * from './tool-type';
 export * from './scene-mode';
 export * from './response-type';
+export * from './benchmark-test-type';
+export * from './benchmark-test-status';
+export * from './benchmark-recommendation';
